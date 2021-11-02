@@ -15,7 +15,7 @@ result_sum = item_1 + item_2
 print(result_sum)
 
 # 5. Создать переменную result_subtr, в которой вы вычитаете большую по значению переменную из меньшей по значению
-result_subtr = max(item_1, item_2) - min(item_1, item_2)
+result_subtr = min(item_1, item_2) - max(item_1, item_2)
 
 # 6. Вывести result_subtr в консоль
 print(result_subtr)
@@ -27,7 +27,7 @@ result_multi = item_1 * item_2
 print(result_multi)
 
 # 9. Создать переменную result_exp в которой вы item_1 возводите в степень item_2
-result_exp = pow(item_1, item_2)
+result_exp = item_1 ** item_2
 
 # 10. Вывести result_exp в консоль
 print(result_exp)
@@ -57,10 +57,10 @@ result_mp_s_root = math.pow(item_1, 0.5)
 print(result_mp_s_root)
 
 # 19. Присвоить переменной item_1 odd значение
-item_1 = 30
+item_1 = 29
 
 # 20. Присвоить переменной item_2 even значение
-item_2 = 7
+item_2 = 6
 
 # 21. Создать переменную result_division в которой вы разделите item_1 на item_2
 result_division = item_1 / item_2
@@ -172,9 +172,12 @@ b_item_result_multi = b_item_t * b_item_f
 print(b_item_result_multi)
 
 # 56. Создать переменную b_item_result_division и присвоить деление b_item_t и b_item_f
-b_item_result_division = b_item_t / b_item_f
+try:
+    b_item_result_division = b_item_t / b_item_f
+except ZeroDivisionError:
+    b_item_result_division = 0
 
-# 57. Вывести b_item_result_division в консоль (Получить ошибку)
+# 57. Вывести b_item_result_division в консоль (получить ошибку)
 print(b_item_result_division)
 
 # 58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
