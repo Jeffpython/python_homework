@@ -44,13 +44,15 @@ print('result_m_exp', result_m_exp)
 result_s_root = item_1 ** 0.5
 print('result_s_root', result_s_root)
 
-# 15. Создать переменную result_m_s_root в которой вы найдёте квадратный корень любой из переменной item используя библиотеку math
+# 15. Создать переменную result_m_s_root в которой вы найдёте квадратный корень любой из переменной item используя
+# библиотеку math
 # 16. Вывести result_m_s_root в консоль
 
 result_m_s_root = math.sqrt(item_1)
 print('result_m_s_root', result_m_s_root)
 
-# 17. Создать переменную result_mp_s_root в которой вы найдёте квадратный корень любой из переменной item используя библиотеку math используя метод pow
+# 17. Создать переменную result_mp_s_root в которой вы найдёте квадратный корень любой из переменной item используя
+# библиотеку math используя метод pow
 # 18. Вывести result_mp_s_root в консоль
 
 result_mp_s_root = math.pow(item_1, 0.5)
