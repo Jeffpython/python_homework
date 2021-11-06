@@ -41,7 +41,7 @@ print('result_m_exp', result_m_exp)
 # 13. Создать переменную result_s_root в которой вы найдёте квадратный корень любой из переменной item
 # 14. Вывести result_s_root в консоль
 
-result_s_root = pow(item_1, 0.5)
+result_s_root = item_1 ** 0.5
 print('result_s_root', result_s_root)
 
 # 15. Создать переменную result_m_s_root в которой вы найдёте квадратный корень любой из переменной item используя библиотеку math
